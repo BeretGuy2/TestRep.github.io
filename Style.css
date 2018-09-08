@@ -1,0 +1,101 @@
+
+
+body{
+	margin:0px;
+	padding:0px;
+	background:linear-gradient(to left, #747474, #4e4e4e)
+}
+
+nav{
+	background-color:#000000;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	position:fixed;
+	width:100%;
+	height:55px;
+}
+nav > a{
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+	height:55px;
+	display:flex;
+	align-items: center;
+	justify-content:center;
+	font-family: 'IM Fell DW Pica', serif;
+}
+nav > a:hover{
+Background-color:#00005f;
+
+}
+#maintemplate{
+	display:grid;
+	grid-template-areas:
+	"header header"
+	"article article"
+	"footer footer";
+	grid-template-rows: 400px 470px 60px;
+}
+
+header{
+	font-size:36px;
+	font-weight:bold;
+	background-image:url('images/archives.jpg') ;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:grey;
+	grid-area: header;
+	font-family: 'IM Fell DW Pica', serif;
+}
+article{
+	grid-area:article;
+	background:none;
+	padding:20px;
+	font-family: 'IM Fell DW Pica', serif;
+	overflow:auto;
+}
+.mainparagraph{
+	font-family: 'IM Fell DW Pica', serif;
+	font-size:21px;
+	color:#000000;
+
+}
+
+footer{
+	grid-area:footer;
+	position: bottom;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#00005f;
+	color:#ffffff;
+	font-family: 'IM Fell DW Pica', serif;
+	height:60px;
+}
+#Titlediv {
+	
+	Top: 280px;
+	left:50%;
+	background-color:#5e5e5e;
+	font-family: 'IM Fell DW Pica', serif;
+	border:7px solid black;
+	border-radius:11px;
+	padding:4px;
+}
+
+#artimg{
+	width:36%;
+	float: right;
+	
+}
+
+#artp{
+	float:left;
+	width:45%;
+	font-size:26px;
+	
+}
+
