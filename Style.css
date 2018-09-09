@@ -3,7 +3,8 @@
 body{
 	margin:0px;
 	padding:0px;
-	background:linear-gradient(to left, #747474, #4e4e4e)
+	background:linear-gradient(to left, #747474, #4e4e4e);
+	cursor:auto;
 }
 
 nav{
@@ -97,5 +98,8 @@ footer{
 	float:left;
 	width:45%;
 	font-size:26px;
-
+		font-family: 'IM Fell DW Pica', serif;
+}
+.outoforder{
+	cursor: no-drop;
 }
