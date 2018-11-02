@@ -36,7 +36,7 @@ Background-color:#00005f;
 	"header header"
 	"article article"
 	"footer footer";
-	grid-template-rows: 400px 470px 60px;
+	grid-template-rows: 400px 500px 80px;
 }
 
 header{
@@ -68,14 +68,16 @@ article{
 
 footer{
 	grid-area:footer;
-	position: bottom;
+	position: relative;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	background-color:#00005f;
 	color:#ffffff;
 	font-family: 'IM Fell DW Pica', serif;
-	height:60px;
+	height:80px;
+	bottom:-1175px;
+	width: 100%;
 }
 #Titlediv {
 
@@ -102,4 +104,19 @@ footer{
 }
 .outoforder{
 	cursor: no-drop;
+}
+#recording{
+	position:absolute;
+	right:10px;
+	top:410px;
+	border: grey inset 10px;
+	background-color: black;
+	color: #FFFFFF;
+	width:24%;
+	height: 1200px;
+	z-index: -1;
+}
+#reflecart{
+width:76%;
+
 }
