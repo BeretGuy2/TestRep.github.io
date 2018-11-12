@@ -37,7 +37,7 @@ Background-color:#00005f;
 	"header header"
 	"article article"
 	"footer footer";
-	grid-template-rows: 400px 800px 80px;
+	grid-template-rows: 400px 1000px 80px;
 }
 
 header{
